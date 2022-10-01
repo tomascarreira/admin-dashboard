@@ -6,6 +6,10 @@
   'opsz' 48
 }
 
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
 body {
 	display: grid;
 	grid-template-columns: max(200px, 25%);
