@@ -26,6 +26,43 @@ header {
 	grid-template-rows: 1fr 2fr;
 }
 
+#search {
+	display: flex;
+	align-items: center;
+}
+
+input {
+	flex: 1;
+}
+
+#right-corner {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+header #right-corner img {
+	height: 50px;
+	width: auto;
+}
+
+#user-greeting {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+#user-greeting img {
+	height: 100px;
+	width: auto;
+}
+
+#buttons-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
 nav {
 	grid-area: sidebar;
 	display: flex;
